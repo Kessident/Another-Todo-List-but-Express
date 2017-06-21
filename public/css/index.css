@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  /*line-height: .5rem;*/
+}
+.todoEnter{
+  flex-basis: 30%;
+}
+.completedTasks{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+}
+
+.todoList{
+  margin-bottom: 10px;
+}
+
+.static{
+  border: none;
+}
+
+.mark_complete{
+  box-shadow: 3px 3px 8px -4px rgba(0,0,0,0.75);
+  margin-right: 3px;
+}
+
+.complete{
+  padding: 3px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px -3px rgba(0,0,0,0.75);
+}
